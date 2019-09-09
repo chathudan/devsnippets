@@ -12,7 +12,7 @@
 
 
 
-## `Update`
+### `Update`
 
 `git submodule update --remote`
 
