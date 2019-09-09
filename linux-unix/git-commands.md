@@ -2,7 +2,7 @@
 
 ## `Submodule` 
 
-### `Sync and Update Submodule` 
+### `Sync`
 
 `git submodule sync`
 
@@ -11,6 +11,8 @@
 > **error: Server does not allow request for unadvertised object**
 
 
+
+## `Update`
 
 `git submodule update --remote`
 
