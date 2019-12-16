@@ -1,0 +1,47 @@
+site_name: DevSnippets  
+site_description: 'Development Snippets'
+site_author: 'Chathura Wijesinghe'
+
+
+# Copyright
+copyright: 'Copyright &copy; 2020 cdan.me '
+
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  favicon: images/favicon.ico
+  logo: images/logo.png
+  feature:
+    tabs: true
+
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/chathudan'
+    - type: 'twitter'
+      link: 'https://twitter.com/chathudan'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/chathudan'
+
+
+# Extensions
+markdown_extensions:
+  - admonition:
+  - pymdownx.superfences: 
+  - pymdownx.details:
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - meta:
